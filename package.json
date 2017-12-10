@@ -1,0 +1,32 @@
+{
+  "name": "news-scraper",
+  "version": "1.0.0",
+  "description": "Getting news from websites and giving users the ability to omment on them",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewendel88/news-scraper.git"
+  },
+  "author": "Elliott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewendel88/news-scraper/issues"
+  },
+  "homepage": "https://github.com/ewendel88/news-scraper#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongojs": "^2.4.1",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
